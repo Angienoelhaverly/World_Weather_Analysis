@@ -9,4 +9,6 @@ The purpose of this repository is to create new additions to the PlanMyTrip app.
 A weather database is created by running an API on Open Weather Map and retrieving a 2,000 sets of random latitudes and longitudes. The set is stored in a list of cities, then parsed using JSON format, then converted into a pandas dataframe. 
 ![Weather Database](https://user-images.githubusercontent.com/73972332/104137939-6fec1300-5355-11eb-9b6f-48158e33ba50.png)
 ## Create a Customer Travel Destinations Map
+A travel destinations map is created by reading the weather database file into a dataframe, prompting the user to enter minimum and maximum temperature criteria, and filtering the dataframe based on the user weather preferences while creatinga new dataframe out of the filtered information. Then a new dataframe is created by adding a column for nearby hotels. Nearby hotels are found by using a Google Maps & Places API Key to search for hotels within 5,000 meters of the random coordinates in the weather database. A marker layer is added for the hotel names and the information is displayed as a destination map. 
+
 ## Create a Travel Itinerary Map

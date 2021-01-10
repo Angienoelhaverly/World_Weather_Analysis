@@ -13,3 +13,6 @@ A travel destinations map is created by reading the weather database file into a
 ![WeatherPy_vacation_map](https://user-images.githubusercontent.com/73972332/104138061-6adb9380-5356-11eb-9593-891ce62cd7a2.png)
 ## Create a Travel Itinerary Map
 A travel itinerary that shows the route between four cities chosen from the customer’s possible travel destinations is created from using the Google Directions API. Then, a marker layer map with a pop-up marker for each city on the itinerary is created. 
+![WeatherPy_travel_map](https://user-images.githubusercontent.com/73972332/104138373-8e074280-5358-11eb-9d68-d4479c599845.png)
+![WeatherPy_travel_map_markers](https://user-images.githubusercontent.com/73972332/104138391-a0817c00-5358-11eb-9dc1-ac38933b15dc.png)
+

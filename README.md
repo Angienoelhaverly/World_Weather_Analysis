@@ -10,5 +10,5 @@ A weather database is created by running an API on Open Weather Map and retrievi
 ![Weather Database](https://user-images.githubusercontent.com/73972332/104137939-6fec1300-5355-11eb-9b6f-48158e33ba50.png)
 ## Create a Customer Travel Destinations Map
 A travel destinations map is created by reading the weather database file into a dataframe, prompting the user to enter minimum and maximum temperature criteria, and filtering the dataframe based on the user weather preferences while creatinga new dataframe out of the filtered information. Then a new dataframe is created by adding a column for nearby hotels. Nearby hotels are found by using a Google Maps & Places API Key to search for hotels within 5,000 meters of the random coordinates in the weather database. A marker layer is added for the hotel names and the information is displayed as a destination map. 
-
+![WeatherPy_vacation_map](https://user-images.githubusercontent.com/73972332/104138061-6adb9380-5356-11eb-9593-891ce62cd7a2.png)
 ## Create a Travel Itinerary Map

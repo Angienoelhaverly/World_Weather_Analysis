@@ -7,6 +7,6 @@ The purpose of this repository is to create new additions to the PlanMyTrip app.
 
 ## Retrieve Weather Data
 A weather database is created by running an API on Open Weather Map and retrieving a 2,000 sets of random latitudes and longitudes. The set is stored in a list of cities, then parsed using JSON format, then converted into a pandas dataframe. 
-
+![Weather Database](https://user-images.githubusercontent.com/73972332/104137939-6fec1300-5355-11eb-9b6f-48158e33ba50.png)
 ## Create a Customer Travel Destinations Map
 ## Create a Travel Itinerary Map
